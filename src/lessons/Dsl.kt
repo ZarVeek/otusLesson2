@@ -70,7 +70,7 @@ fun main() {
             contentType("application/json")
             authorization("Bearer token")
         }
-        body("{\"name\": \"John\", \"age\": 30}")
+        body("""{"name": "John", "age": 30}""")
     }
 
     println(request)
